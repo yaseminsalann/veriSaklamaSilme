@@ -57,5 +57,35 @@ class ViewController: UIViewController {
         birtdayLabel.text = "Birthday: \(birthdayTextField.text!)"
     }
     
+    @IBAction func deleteClicked(_ sender: Any) {
+        //UserDefaults kayıt edilen verileri silme işlemi yapılıyor
+        
+        let savedName = UserDefaults.standard.object(forKey: "name")
+        let savedBirthday = UserDefaults.standard.object(forKey: "birthday")
+        
+        //aşağıdaki şekildede yapıldığında doğru olur
+        /*if let newName = savedName as? String{
+            UserDefaults.standard.removeObject(forKey: "name")
+            nameLabel.text = "Name: "
+        }
+        if let newBirthday = savedBirthday as? String{
+            UserDefaults.standard.removeObject(forKey: "birthday")
+            birtdayLabel.text = "Birthday: "
+        }*/
+        
+        //aşağıdaki şekildede yapıldığında doğru olur
+        // "" vs nil
+        if (savedName as? String) != nil{
+            UserDefaults.standard.removeObject(forKey: "name")
+            nameLabel.text = "Name: "
+        }
+        if savedBirthday as? String != nil{
+            UserDefaults.standard.removeObject(forKey: "birthday")
+            birtdayLabel.text = "Birthday: "
+        }
+        
+        
+    }
+    
 }
 
