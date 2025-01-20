@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B6C6A6482D3E763800A58A7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6C6A6292D3E763600A58A7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6C6A6302D3E763600A58A7C;
+			remoteInfo = veriSaklamaSilme;
+		};
+		B6C6A6522D3E763800A58A7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6C6A6292D3E763600A58A7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6C6A6302D3E763600A58A7C;
+			remoteInfo = veriSaklamaSilme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6C6A6312D3E763600A58A7C /* veriSaklamaSilme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = veriSaklamaSilme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C6A6472D3E763800A58A7C /* veriSaklamaSilmeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = veriSaklamaSilmeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C6A6512D3E763800A58A7C /* veriSaklamaSilmeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = veriSaklamaSilmeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B6C6A6592D3E763800A58A7C /* Exceptions for "veriSaklamaSilme" folder in "veriSaklamaSilme" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B6C6A6302D3E763600A58A7C /* veriSaklamaSilme */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B6C6A6332D3E763600A58A7C /* veriSaklamaSilme */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B6C6A6592D3E763800A58A7C /* Exceptions for "veriSaklamaSilme" folder in "veriSaklamaSilme" target */,
+			);
+			path = veriSaklamaSilme;
+			sourceTree = "<group>";
+		};
+		B6C6A64A2D3E763800A58A7C /* veriSaklamaSilmeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = veriSaklamaSilmeTests;
+			sourceTree = "<group>";
+		};
+		B6C6A6542D3E763800A58A7C /* veriSaklamaSilmeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = veriSaklamaSilmeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6C6A62E2D3E763600A58A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C6A6442D3E763800A58A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C6A64E2D3E763800A58A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6C6A6282D3E763600A58A7C = {
+			isa = PBXGroup;
+			children = (
+				B6C6A6332D3E763600A58A7C /* veriSaklamaSilme */,
+				B6C6A64A2D3E763800A58A7C /* veriSaklamaSilmeTests */,
+				B6C6A6542D3E763800A58A7C /* veriSaklamaSilmeUITests */,
+				B6C6A6322D3E763600A58A7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6C6A6322D3E763600A58A7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6C6A6312D3E763600A58A7C /* veriSaklamaSilme.app */,
+				B6C6A6472D3E763800A58A7C /* veriSaklamaSilmeTests.xctest */,
+				B6C6A6512D3E763800A58A7C /* veriSaklamaSilmeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6C6A6302D3E763600A58A7C /* veriSaklamaSilme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C6A65A2D3E763800A58A7C /* Build configuration list for PBXNativeTarget "veriSaklamaSilme" */;
+			buildPhases = (
+				B6C6A62D2D3E763600A58A7C /* Sources */,
+				B6C6A62E2D3E763600A58A7C /* Frameworks */,
+				B6C6A62F2D3E763600A58A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B6C6A6332D3E763600A58A7C /* veriSaklamaSilme */,
+			);
+			name = veriSaklamaSilme;
+			packageProductDependencies = (
+			);
+			productName = veriSaklamaSilme;
+			productReference = B6C6A6312D3E763600A58A7C /* veriSaklamaSilme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6C6A6462D3E763800A58A7C /* veriSaklamaSilmeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C6A65F2D3E763800A58A7C /* Build configuration list for PBXNativeTarget "veriSaklamaSilmeTests" */;
+			buildPhases = (
+				B6C6A6432D3E763800A58A7C /* Sources */,
+				B6C6A6442D3E763800A58A7C /* Frameworks */,
+				B6C6A6452D3E763800A58A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C6A6492D3E763800A58A7C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B6C6A64A2D3E763800A58A7C /* veriSaklamaSilmeTests */,
+			);
+			name = veriSaklamaSilmeTests;
+			packageProductDependencies = (
+			);
+			productName = veriSaklamaSilmeTests;
+			productReference = B6C6A6472D3E763800A58A7C /* veriSaklamaSilmeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6C6A6502D3E763800A58A7C /* veriSaklamaSilmeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C6A6622D3E763800A58A7C /* Build configuration list for PBXNativeTarget "veriSaklamaSilmeUITests" */;
+			buildPhases = (
+				B6C6A64D2D3E763800A58A7C /* Sources */,
+				B6C6A64E2D3E763800A58A7C /* Frameworks */,
+				B6C6A64F2D3E763800A58A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C6A6532D3E763800A58A7C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B6C6A6542D3E763800A58A7C /* veriSaklamaSilmeUITests */,
+			);
+			name = veriSaklamaSilmeUITests;
+			packageProductDependencies = (
+			);
+			productName = veriSaklamaSilmeUITests;
+			productReference = B6C6A6512D3E763800A58A7C /* veriSaklamaSilmeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6C6A6292D3E763600A58A7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B6C6A6302D3E763600A58A7C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B6C6A6462D3E763800A58A7C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B6C6A6302D3E763600A58A7C;
+					};
+					B6C6A6502D3E763800A58A7C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B6C6A6302D3E763600A58A7C;
+					};
+				};
+			};
+			buildConfigurationList = B6C6A62C2D3E763600A58A7C /* Build configuration list for PBXProject "veriSaklamaSilme" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6C6A6282D3E763600A58A7C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B6C6A6322D3E763600A58A7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6C6A6302D3E763600A58A7C /* veriSaklamaSilme */,
+				B6C6A6462D3E763800A58A7C /* veriSaklamaSilmeTests */,
+				B6C6A6502D3E763800A58A7C /* veriSaklamaSilmeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6C6A62F2D3E763600A58A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C6A6452D3E763800A58A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C6A64F2D3E763800A58A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6C6A62D2D3E763600A58A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C6A6432D3E763800A58A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C6A64D2D3E763800A58A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6C6A6492D3E763800A58A7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6C6A6302D3E763600A58A7C /* veriSaklamaSilme */;
+			targetProxy = B6C6A6482D3E763800A58A7C /* PBXContainerItemProxy */;
+		};
+		B6C6A6532D3E763800A58A7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6C6A6302D3E763600A58A7C /* veriSaklamaSilme */;
+			targetProxy = B6C6A6522D3E763800A58A7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6C6A65B2D3E763800A58A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H266929N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = veriSaklamaSilme/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaseminsalan.veriSaklamaSilme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6C6A65C2D3E763800A58A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H266929N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = veriSaklamaSilme/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaseminsalan.veriSaklamaSilme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6C6A65D2D3E763800A58A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6C6A65E2D3E763800A58A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6C6A6602D3E763800A58A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H266929N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaseminsalan.veriSaklamaSilmeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/veriSaklamaSilme.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/veriSaklamaSilme";
+			};
+			name = Debug;
+		};
+		B6C6A6612D3E763800A58A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H266929N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaseminsalan.veriSaklamaSilmeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/veriSaklamaSilme.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/veriSaklamaSilme";
+			};
+			name = Release;
+		};
+		B6C6A6632D3E763800A58A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H266929N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaseminsalan.veriSaklamaSilmeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = veriSaklamaSilme;
+			};
+			name = Debug;
+		};
+		B6C6A6642D3E763800A58A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H266929N4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaseminsalan.veriSaklamaSilmeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = veriSaklamaSilme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6C6A62C2D3E763600A58A7C /* Build configuration list for PBXProject "veriSaklamaSilme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C6A65D2D3E763800A58A7C /* Debug */,
+				B6C6A65E2D3E763800A58A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C6A65A2D3E763800A58A7C /* Build configuration list for PBXNativeTarget "veriSaklamaSilme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C6A65B2D3E763800A58A7C /* Debug */,
+				B6C6A65C2D3E763800A58A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C6A65F2D3E763800A58A7C /* Build configuration list for PBXNativeTarget "veriSaklamaSilmeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C6A6602D3E763800A58A7C /* Debug */,
+				B6C6A6612D3E763800A58A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C6A6622D3E763800A58A7C /* Build configuration list for PBXNativeTarget "veriSaklamaSilmeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C6A6632D3E763800A58A7C /* Debug */,
+				B6C6A6642D3E763800A58A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6C6A6292D3E763600A58A7C /* Project object */;
+}
